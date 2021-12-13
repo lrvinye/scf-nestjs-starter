@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    // 如果使用到了SCF内置的库，需要在下面列出，并在SCF开启自动安装依赖
+    "tencentcloud-sdk-nodejs": "^4.0.230"
+  }
+}
